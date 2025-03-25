@@ -1,0 +1,27 @@
+Escreva um programa que imprima todos os números pares d
+e 0 a 20 usando um loop for.
+
+Crie um programa que itere por uma lista de nomes 
+e imprima cada nome em letras maiúsculas.
+
+Escreva um programa que calcule a soma de todos os números em uma lista
+usando um loop for.
+
+Crie um programa que itere por uma string e conte o número de vogais.
+
+Escreva um programa que imprima os primeiros 10 números da sequência
+de Fibonacci usando um loop for.
+
+Crie um programa que encontre o maior número em uma lista
+usando um loop for.
+
+Escreva um programa que inverta uma string usando um loop for.
+
+Crie um programa que remova todos os elementos duplicados de uma lista
+usando um loop for.
+
+Escreva um programa que verifique se uma lista está em ordem crescente
+usando um loop for.
+
+Escreva um algoritmo que irá ler uma tupla (pode ser estática),
+randomize a ordem dos elementos e apresente a nova tupla.
