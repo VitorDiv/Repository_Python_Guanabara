@@ -26,7 +26,7 @@ n1_1 = float(input('Digite a primeira nota: '))
 n2_2 = float(input('Digite a primeira nota: '))
 
 media = (n1_1 + n2_2) / 2
-print('A média das notas informadas é: ', media)
+print(f'A média das notas informadas é: {media:.2f}')
 
 #----------------------------------------------------#
 
@@ -81,7 +81,7 @@ print(f'A sua parede ao total possui {S} Metros Quadrados, e será necessário {
 
 # Faça um programa que leia o preço de um produto e mostre seu preço com 5% de desconto
 
-preco = float(input('Preço do produto: '))
+preco = float(input('Informe o Preço do produto R$: '))
 desconto = preco * 0.05
 descontofinal = preco - desconto 
 print(f'o preço do produto com 5% de desconto é {descontofinal}')
