@@ -95,3 +95,30 @@ salario = float(input('Digite o seu salário: '))
 aumento = salario * 0.15
 salariofinal = salario + aumento
 print(f'o salaário final com o aumento é de {salariofinal}')
+
+#----------------------------------------------------#
+
+# salario com 15% de aumento
+salario_atual = float(input('Qual é seu salário atual: '))
+
+salario_aumento = salario_atual * 0.15
+print(f' O salario atual de R${salario_atual:.2f} com 15% de aumento fica igual a R${salario_atual + salario_aumento:.2f}')
+
+#----------------------------------------------------#
+
+# Conversor de temperatura Celsius P/ Fahrenheit 
+
+temperatura_celsius = float(input('digite uma temperaturatura em celsius: '))
+temp_fah = (temperatura_celsius * 1.8) + 32
+
+print(f'a temperatura de {temperatura_celsius} graus Celsius, transformada em Fahrenheit é igual a {temp_fah}')
+
+#----------------------------------------------------#
+
+# Alugeul de carro
+
+dias_alugados = int(input('quantos dias o carro foi alugado: '))
+km_rodados = int(input('quantos km o carro percorreu: '))
+
+custo = (dias_alugados * 60) + (km_rodados * 0.15)
+print(f' o preço do aluguel do carro é R${custo:.2f}')
